@@ -3,7 +3,7 @@
 <?php
 
 if(session_status() == PHP_SESSION_NONE){
-  session_start();
+session_start();
 }
 $page = $_GET['page'] ?? 'home';
 $action = $_GET['action'] ?? 'index';
